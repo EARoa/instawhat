@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09ED83AFEF67A8C0AFF2FF38800A52E6 /* SHCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D0DB63F9CE9FAFC5F984FBFEF9D425 /* SHCollectionViewCell.swift */; };
+		17F827EC00E81FE974F64D5AF6E7A5FB /* Sharaku-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A2E1B760F159A6321887D05AA361F71 /* Sharaku-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35925FD573DC453CAE4325469C39FC53 /* SHViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = BC292E4591617C4DE8F945770BCFC2B7 /* SHViewController.xib */; };
+		5ACFD01D0065113EA070AE1F33FAA515 /* SHCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8B5B768693783F8A3F535EC5D20AE878 /* SHCollectionViewCell.xib */; };
+		6E62FDD061E13D55C7BC9E7BA9F58208 /* Pods-InstaWhat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5E4F9E260CEEDA65A212CF47320FF4 /* Pods-InstaWhat-dummy.m */; };
+		7337C0F4AD175D00ECC40D280AC3859F /* SHCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B5B768693783F8A3F535EC5D20AE878 /* SHCollectionViewCell.xib */; };
+		909E6765EF5014D8CF0F7708E2BA7D4D /* SHViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC292E4591617C4DE8F945770BCFC2B7 /* SHViewController.xib */; };
+		B2AF90A78528DDF0CF869693DA8EA3A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CDA18860583F3BA2E2C8E20509099F02 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C49C1B2E88F28CC186F86CF8F1800A8 /* Media.xcassets */; };
+		D5CD2833DF58A2468B199BC9D11597BF /* SHViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2317B624BBD0AB0B4D7CFA5170F96B7 /* SHViewController.swift */; };
+		F4C5D673704D0D25EDA8EC781F612AB7 /* Pods-InstaWhat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 787B5FD41B9C2701020E0E71ED9854CC /* Pods-InstaWhat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE5429131CF33AF672E4020413674DE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FF48110BCD00BAF21689DA77C951CEDB /* Sharaku-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E800BA8950BB19BD0794D4712B522F /* Sharaku-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0A63736496D349A0A47390F3EF68CDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40568ECCCA0A20E661259341CDBE8842;
+			remoteInfo = Sharaku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E02E12D73282BD56FD870F67412269 /* Sharaku.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Sharaku.framework; path = Sharaku.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12FF210A3ABB671BCD86CFFA2F3884A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1552A4E2C70691F23DC00890093E8A32 /* Sharaku.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sharaku.xcconfig; sourceTree = "<group>"; };
+		41590A67DBA876C2E184771CA842FA4D /* Pods-InstaWhat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaWhat.release.xcconfig"; sourceTree = "<group>"; };
+		421470420B78668995BAE43DB2A34A94 /* Pods_InstaWhat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InstaWhat.framework; path = "Pods-InstaWhat.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5324F6365B92A5D3F8B6FA59710F360F /* Pods-InstaWhat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InstaWhat.debug.xcconfig"; sourceTree = "<group>"; };
+		5B5E4F9E260CEEDA65A212CF47320FF4 /* Pods-InstaWhat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InstaWhat-dummy.m"; sourceTree = "<group>"; };
+		6A2E1B760F159A6321887D05AA361F71 /* Sharaku-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sharaku-umbrella.h"; sourceTree = "<group>"; };
+		6C49C1B2E88F28CC186F86CF8F1800A8 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = Sharaku/Assets/Media.xcassets; sourceTree = "<group>"; };
+		787B5FD41B9C2701020E0E71ED9854CC /* Pods-InstaWhat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InstaWhat-umbrella.h"; sourceTree = "<group>"; };
+		8B5B768693783F8A3F535EC5D20AE878 /* SHCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHCollectionViewCell.xib; path = Sharaku/Classes/SHCollectionViewCell.xib; sourceTree = "<group>"; };
+		90E4DBC28491C94C963E0355E4CB3682 /* Pods-InstaWhat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InstaWhat-acknowledgements.plist"; sourceTree = "<group>"; };
+		91B4BE95AF8DD68E2B7D6DBB8FB5D6C5 /* Sharaku.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Sharaku.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E800BA8950BB19BD0794D4712B522F /* Sharaku-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sharaku-dummy.m"; sourceTree = "<group>"; };
+		99919FDC40F9369C1754824F3219003A /* Sharaku-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sharaku-prefix.pch"; sourceTree = "<group>"; };
+		A0BF9352F81DEF4E47B34BF7F18FC01B /* Pods-InstaWhat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaWhat-resources.sh"; sourceTree = "<group>"; };
+		B4D0DB63F9CE9FAFC5F984FBFEF9D425 /* SHCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHCollectionViewCell.swift; path = Sharaku/Classes/SHCollectionViewCell.swift; sourceTree = "<group>"; };
+		BC292E4591617C4DE8F945770BCFC2B7 /* SHViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SHViewController.xib; path = Sharaku/Classes/SHViewController.xib; sourceTree = "<group>"; };
+		BD1B5CD25AF4273DAF6C2BE7019B4BEC /* Pods-InstaWhat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InstaWhat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C27EF63220194E1EB286F2328A4EF210 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4260F54C2B91886C6625ABAF4FD5458 /* Pods-InstaWhat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InstaWhat-frameworks.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E56B951FB53F627D4680C194B788190B /* Pods-InstaWhat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-InstaWhat.modulemap"; sourceTree = "<group>"; };
+		F2317B624BBD0AB0B4D7CFA5170F96B7 /* SHViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SHViewController.swift; path = Sharaku/Classes/SHViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E283E2F7110DE610565C6DBCAFE8E2EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE5429131CF33AF672E4020413674DE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB70DE8FA26406348BBB79B98123A9A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AF90A78528DDF0CF869693DA8EA3A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27FD886F963DECC74C8EED7D3E6C99CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C49C1B2E88F28CC186F86CF8F1800A8 /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2C303C8ACCFCED28907FEFF7B3E6DBC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421470420B78668995BAE43DB2A34A94 /* Pods_InstaWhat.framework */,
+				02E02E12D73282BD56FD870F67412269 /* Sharaku.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		344AC5F2BE5A037D2959B977FBA2ADB5 /* Sharaku */ = {
+			isa = PBXGroup;
+			children = (
+				B4D0DB63F9CE9FAFC5F984FBFEF9D425 /* SHCollectionViewCell.swift */,
+				8B5B768693783F8A3F535EC5D20AE878 /* SHCollectionViewCell.xib */,
+				F2317B624BBD0AB0B4D7CFA5170F96B7 /* SHViewController.swift */,
+				BC292E4591617C4DE8F945770BCFC2B7 /* SHViewController.xib */,
+				27FD886F963DECC74C8EED7D3E6C99CC /* Resources */,
+				EA4CCD45E0FA09374043662EEDE593F5 /* Support Files */,
+			);
+			name = Sharaku;
+			path = Sharaku;
+			sourceTree = "<group>";
+		};
+		58D27328FEABA370B120E1E574A40529 /* Pods-InstaWhat */ = {
+			isa = PBXGroup;
+			children = (
+				12FF210A3ABB671BCD86CFFA2F3884A4 /* Info.plist */,
+				E56B951FB53F627D4680C194B788190B /* Pods-InstaWhat.modulemap */,
+				BD1B5CD25AF4273DAF6C2BE7019B4BEC /* Pods-InstaWhat-acknowledgements.markdown */,
+				90E4DBC28491C94C963E0355E4CB3682 /* Pods-InstaWhat-acknowledgements.plist */,
+				5B5E4F9E260CEEDA65A212CF47320FF4 /* Pods-InstaWhat-dummy.m */,
+				C4260F54C2B91886C6625ABAF4FD5458 /* Pods-InstaWhat-frameworks.sh */,
+				A0BF9352F81DEF4E47B34BF7F18FC01B /* Pods-InstaWhat-resources.sh */,
+				787B5FD41B9C2701020E0E71ED9854CC /* Pods-InstaWhat-umbrella.h */,
+				5324F6365B92A5D3F8B6FA59710F360F /* Pods-InstaWhat.debug.xcconfig */,
+				41590A67DBA876C2E184771CA842FA4D /* Pods-InstaWhat.release.xcconfig */,
+			);
+			name = "Pods-InstaWhat";
+			path = "Target Support Files/Pods-InstaWhat";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D479E207ECEBB7C199E57C3C3E07F20 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				344AC5F2BE5A037D2959B977FBA2ADB5 /* Sharaku */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7D479E207ECEBB7C199E57C3C3E07F20 /* Pods */,
+				2C303C8ACCFCED28907FEFF7B3E6DBC9 /* Products */,
+				BCAC4022FD82F6F7D4D3A2BFB2900EC6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCAC4022FD82F6F7D4D3A2BFB2900EC6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58D27328FEABA370B120E1E574A40529 /* Pods-InstaWhat */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EA4CCD45E0FA09374043662EEDE593F5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C27EF63220194E1EB286F2328A4EF210 /* Info.plist */,
+				91B4BE95AF8DD68E2B7D6DBB8FB5D6C5 /* Sharaku.modulemap */,
+				1552A4E2C70691F23DC00890093E8A32 /* Sharaku.xcconfig */,
+				93E800BA8950BB19BD0794D4712B522F /* Sharaku-dummy.m */,
+				99919FDC40F9369C1754824F3219003A /* Sharaku-prefix.pch */,
+				6A2E1B760F159A6321887D05AA361F71 /* Sharaku-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sharaku";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09096BE24B94B1478A81F23637CA5751 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F827EC00E81FE974F64D5AF6E7A5FB /* Sharaku-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53D3018B4B683A13EDC4E0D364D9585 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C5D673704D0D25EDA8EC781F612AB7 /* Pods-InstaWhat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		229B7495BD8F8AA6BFF2D052437CA808 /* Pods-InstaWhat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F88E358F3A4E335A3DF005643C3328D /* Build configuration list for PBXNativeTarget "Pods-InstaWhat" */;
+			buildPhases = (
+				9E76E5A7CEA9AE57937A4D38501A6906 /* Sources */,
+				FB70DE8FA26406348BBB79B98123A9A8 /* Frameworks */,
+				B53D3018B4B683A13EDC4E0D364D9585 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F55DFC8C36DC477FCD40C53D8D20086F /* PBXTargetDependency */,
+			);
+			name = "Pods-InstaWhat";
+			productName = "Pods-InstaWhat";
+			productReference = 421470420B78668995BAE43DB2A34A94 /* Pods_InstaWhat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40568ECCCA0A20E661259341CDBE8842 /* Sharaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D2CEA1498EB3D20AAA9E969E87F0C6C /* Build configuration list for PBXNativeTarget "Sharaku" */;
+			buildPhases = (
+				4938B25B80FBD5B1D656A5A7A2894FBA /* Sources */,
+				E283E2F7110DE610565C6DBCAFE8E2EC /* Frameworks */,
+				311D8406B7345CAC2D2CF001ABE1E8B7 /* Resources */,
+				09096BE24B94B1478A81F23637CA5751 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sharaku;
+			productName = Sharaku;
+			productReference = 02E02E12D73282BD56FD870F67412269 /* Sharaku.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2C303C8ACCFCED28907FEFF7B3E6DBC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229B7495BD8F8AA6BFF2D052437CA808 /* Pods-InstaWhat */,
+				40568ECCCA0A20E661259341CDBE8842 /* Sharaku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		311D8406B7345CAC2D2CF001ABE1E8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA18860583F3BA2E2C8E20509099F02 /* Media.xcassets in Resources */,
+				7337C0F4AD175D00ECC40D280AC3859F /* SHCollectionViewCell.xib in Resources */,
+				909E6765EF5014D8CF0F7708E2BA7D4D /* SHViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4938B25B80FBD5B1D656A5A7A2894FBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF48110BCD00BAF21689DA77C951CEDB /* Sharaku-dummy.m in Sources */,
+				09ED83AFEF67A8C0AFF2FF38800A52E6 /* SHCollectionViewCell.swift in Sources */,
+				5ACFD01D0065113EA070AE1F33FAA515 /* SHCollectionViewCell.xib in Sources */,
+				D5CD2833DF58A2468B199BC9D11597BF /* SHViewController.swift in Sources */,
+				35925FD573DC453CAE4325469C39FC53 /* SHViewController.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E76E5A7CEA9AE57937A4D38501A6906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E62FDD061E13D55C7BC9E7BA9F58208 /* Pods-InstaWhat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F55DFC8C36DC477FCD40C53D8D20086F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sharaku;
+			target = 40568ECCCA0A20E661259341CDBE8842 /* Sharaku */;
+			targetProxy = D0A63736496D349A0A47390F3EF68CDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1FB9420DE36503E602DD3AEC81806BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1552A4E2C70691F23DC00890093E8A32 /* Sharaku.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Sharaku/Sharaku-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sharaku/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sharaku/Sharaku.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Sharaku;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49057805D2C0786EF3C4F01D4648AD4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41590A67DBA876C2E184771CA842FA4D /* Pods-InstaWhat.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaWhat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaWhat/Pods-InstaWhat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InstaWhat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5520E79EF5D5CFCBB42F338B34704A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5324F6365B92A5D3F8B6FA59710F360F /* Pods-InstaWhat.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-InstaWhat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InstaWhat/Pods-InstaWhat.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_InstaWhat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5CF34C77A929B38EF2E8D5EE897D47A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1552A4E2C70691F23DC00890093E8A32 /* Sharaku.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Sharaku/Sharaku-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sharaku/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sharaku/Sharaku.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Sharaku;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		673254EEAF0B5BF4596080C749645884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F88E358F3A4E335A3DF005643C3328D /* Build configuration list for PBXNativeTarget "Pods-InstaWhat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5520E79EF5D5CFCBB42F338B34704A6B /* Debug */,
+				49057805D2C0786EF3C4F01D4648AD4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4F26E6EB105713A6A7E7E2E283AC2DF /* Debug */,
+				673254EEAF0B5BF4596080C749645884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D2CEA1498EB3D20AAA9E969E87F0C6C /* Build configuration list for PBXNativeTarget "Sharaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CF34C77A929B38EF2E8D5EE897D47A4 /* Debug */,
+				1FB9420DE36503E602DD3AEC81806BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
